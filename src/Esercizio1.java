@@ -32,7 +32,7 @@ public class Esercizio1 {
             System.out.println("Elemento corrente " + strings2[i]);
         }
 
-        
+
     }
 }
 
