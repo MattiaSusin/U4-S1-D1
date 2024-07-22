@@ -12,10 +12,10 @@ public class Esercizio2 {
         System.out.println("Ok,sei nato il " + giorno + " Ora inserisci il mese di nascita:");
         String mese = scanner.nextLine();
 
-        System.out.println("Ok,sei nato il" + giorno + "," + mese + " Infine il luogo di nascita:");
+        System.out.println("Ok,sei nato il " + giorno + "," + mese + " Infine il luogo di nascita:");
         String luogo = scanner.nextLine();
 
-        System.out.println("Quindi sei nato il:" + giorno + "," + mese + luogo + ", grazie mille");
+        System.out.println("Quindi sei nato il: " + giorno + "," + mese + " a " + luogo + ",grazie mille");
 
     }
 }
