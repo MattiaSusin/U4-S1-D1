@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Esercizio1 {
     public static void main(String[] args) {
 
@@ -17,21 +19,20 @@ public class Esercizio1 {
 
         System.out.println("----------------INSERISCI----------------");
 
-        String[] strings = new String[5];
-        strings[0] = "Gian";
-        strings[1] = "Alberto";
-        strings[2] = "Marco";
-        strings[3] = "Federica";
-        strings[4] = "Anastasia";
+        String[] strings = {"Gian", "Alberto", "Marco", "Federica", "Anastasia"};
+        System.out.println(strings);
 
-        /*String[] strings = new[5];
+        String[] strings2 = new String[6];
 
-        strings[2]= "Anna";
+        strings2 = Arrays.copyOf(strings, strings.length + 1);
+        strings2[5] = "Anna";
 
 
-        String[] totStrings = new String[6];
-*/
+        for (int i = 0; i < strings2.length; i++) {
+            System.out.println("Elemento corrente " + strings2[i]);
+        }
 
+        
     }
 }
 
