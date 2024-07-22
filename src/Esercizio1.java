@@ -7,7 +7,7 @@ public class Esercizio1 {
 
         int num1 = 8;
         int num2 = 3;
-        int tot = num2 + num1;
+        int tot = num2 * num1;
 
         System.out.println("il risultato della somma è:" + tot);
 
