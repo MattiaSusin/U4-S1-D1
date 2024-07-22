@@ -24,14 +24,13 @@ public class Esercizio1 {
         strings[3] = "Federica";
         strings[4] = "Anastasia";
 
-        String[] strings = new[5];
+        /*String[] strings = new[5];
 
         strings[2]= "Anna";
 
-        
 
         String[] totStrings = new String[6];
-
+*/
 
     }
 }
