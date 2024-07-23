@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Esercizio3 {
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
         System.out.println("----------------PERIMETRO DEL TRIANGOLO------------------------");
         double base = 50.8;
         double altezza = 26.7;
@@ -23,7 +24,6 @@ public class Esercizio3 {
 
         System.out.println("----------------PERIMETRO TRIANGOLO------------------------");
 
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Inserire i dati richiesti per calcolare l'area del Trianngolo");
         System.out.println("Inserire la base del triangolo");
